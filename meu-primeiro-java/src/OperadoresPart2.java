@@ -13,7 +13,19 @@ public class OperadoresPart2 {
         System.out.println("isDezIgualVinte "+isDezIgualVinte);
         System.out.println("isDezIgualDez "+isDezIgualDez);
 
-        
+        // && (AND) || (OR) ! 
+        int idade = 25;
+        float salario = 3500F;
+        boolean isDentroDaLeiMaiorqueTrinta = idade > 30 && salario >= 4612;
+        boolean isDentroDaLeiMenorqueTrinta = idade < 30 && salario >= 3381;
+        System.out.println("isDentroDaLeiMaiorqueTrinta "+isDentroDaLeiMaiorqueTrinta);
+        System.out.println("isDentroDaLeiMenorqueTrinta " + isDentroDaLeiMenorqueTrinta);
+
+        double valorTotalContaCorrente = 200;
+        double valorTotalContaPoupanca = 10000;
+        float valorPlaystation = 5000;
+        boolean isPlaystationCompravel = valorTotalContaCorrente > valorPlaystation || valorTotalContaPoupanca > valorPlaystation;
+        System.out.println("isPlaystationCompravel "+isPlaystationCompravel);
     }
 }
 
