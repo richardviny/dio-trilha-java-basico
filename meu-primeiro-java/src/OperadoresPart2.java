@@ -26,6 +26,31 @@ public class OperadoresPart2 {
         float valorPlaystation = 5000;
         boolean isPlaystationCompravel = valorTotalContaCorrente > valorPlaystation || valorTotalContaPoupanca > valorPlaystation;
         System.out.println("isPlaystationCompravel "+isPlaystationCompravel);
-    }
+        
+        // = += -= *= /= %=
+
+        double bonus = 1800;
+        bonus += 1000; // adicionar mil 
+        bonus -= 1000; // diminuir mil 
+        bonus *= 2; // multiplicar por 2
+        bonus /= 2; // dividir por 2
+        bonus %= 3; // resto da divisao por 3
+        System.out.println("bonus "+bonus);
+        System.out.println(bonus);
+
+        // 
+        int contador = 0;
+        contador += 1;
+        contador -= 1;
+        contador ++;
+        contador --;
+        ++ contador;
+        int contador2 = 0;
+
+        System.out.println(++contador2);
+
+        
+
+    }   
 }
 
