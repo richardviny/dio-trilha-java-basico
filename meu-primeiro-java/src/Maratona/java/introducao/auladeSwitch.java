@@ -2,7 +2,7 @@ package Maratona.java.introducao;
 // imprima o dia da semana, considerando 1 domingo ! 
 public class auladeSwitch {
 public static void main(String[] args) {
-    byte  dia = 1 ;
+    byte  dia = 0 ;
     // char, int, byte, short , enum, String
     switch (dia) {
         case 1:
@@ -30,7 +30,7 @@ public static void main(String[] args) {
             System.out.println("Dia inválido");
             break;     
     }
-        char sexo = 'M';
+        char sexo = 'F';
         switch (sexo) {
             case 'M':
                 System.out.println("Homem");
